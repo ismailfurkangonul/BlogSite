@@ -1,0 +1,105 @@
+﻿
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-4" ng-app="homeapp" ng-controller="homecontroller">
+    <div class="col-4">
+       <h3>Kullanıcılar listesi</h3>
+       <a href="/User/Add" class="btn btn-primary mt-1 mb-1">kullanici ekle</a>
+      <table class="table-sm table-hover table-bordered">
+          <thead>
+          <tr>
+              <td>Ad Soyad</td>
+              <td>Rol</td>
+              <td>Makale</td>
+              <td>Yorum</td>
+          </tr>
+          </thead>
+          <tbody>
+              <tr ng-repeat="user in UserList">
+                  <td>{{user.nameSurname}}</td>
+                  <td>{{user.role}}</td>
+                  <td>{{user.articleCount}}</td>
+                  <td>{{user.commentCount}}</td>
+
+
+              </tr>
+
+
+
+          </tbody>
+
+      </table>
+
+    </div>
+    <div class="col-4">
+        <h3>Kategoriler Listesi</h3>
+          <a class="btn btn-primary mt-1 mb-3" href="/Category/Add">kategori ekle</a>
+        <table class="table-sm table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>Adi</th>
+                     <th>Makale Sayisi</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr ng-repeat="category in CategoryList">
+                  <td>{{category.name}}</td>
+                  <td>{{category.articleCount}}</td>
+                 
+
+
+
+
+
+
+            </tbody>
+
+        </table>
+
+
+
+
+
+
+
+
+    </div>
+    
+    <div class="col-4">
+       
+         <h3>Makaleler listesi</h3>
+           <a class="btn btn-primary mt-1 mb-1" href="/Article/Add">makale ekle</a>
+         <table class="table-sm table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>Adi</th>
+                    <th>Kategori Adi</th>
+                     <th>Yorum Sayisi</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr ng-repeat="article in ArticleList">
+                   <td>{{category.name}}</td>
+                  <td>{{article.title}}</td>
+                  <td>{{comment.commentCount}}</td>
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    </div>
+
+    @section scripts{
+
+        <script src="~/js/pages/Home.js"></script>
+
+
+
+    }

@@ -1,0 +1,41 @@
+﻿@{
+   Layout = "~/Views/Shared/_Layout.cshtml";  
+
+}
+<div class="row mt-3" ng-app="categoryapp" ng-controller="categorycontroller">
+    <div class="col-8">
+
+        <h3>Yeni Kategori Ekle</h3>
+        <div class="form-group">
+            <label>Lütfen kategori ekleyiniz</label>
+            <input class="form-control" ng-model="Category.Title" />
+
+        </div>
+
+         <div class="form-group">
+            <label>Lütfen kategori aciklamasini ekleyiniz</label>
+            <input class="form-control" ng-model="Category.Content" />
+
+        </div>
+        <div class="form-group">
+            
+            <button class="btn btn-primary" ng-click="AddCategory()">kategori ekle</button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+</div>
+@section scripts{
+
+        <script src="~/js/pages/category.js"></script>
+
+
+
+    }

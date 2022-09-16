@@ -1,0 +1,44 @@
+﻿@{
+   Layout = "~/Views/Shared/_Layout.cshtml";  
+
+}
+<div class="row mt-3"  ng-app="articleapp" ng-controller="articlecontroller">
+     <div class="col-8">
+         <h3>Yeni Makale Ekle</h3>
+          <div class="form-group">
+            <label>Lütfen makale ekleyiniz</label>
+            <input class="form-control" ng-model="Article.Title" />
+
+        </div>
+
+         <div class="form-group">
+            <label>Lütfen makale aciklamasini ekleyiniz</label>
+            <input class="form-control" ng-model="Article.Content" />
+
+        </div>
+       <div class="form-group">
+        <label>bir kategori seçiniz</label>
+        <select class="form-control" ng-model="Article.CategoryId">
+            <option value="0">seçiniz</option>
+            <option ng-repeat="category in CategoryList " ng-value="{{category.Id}}">{{category.title}}</option>
+        </select>
+    </div>
+        <div class="form-group">
+            
+            <button class="btn btn-primary" ng-click="AddArticle()">makale ekle</button>
+
+        </div>
+
+
+
+
+         </div>
+
+</div>
+@section scripts{
+
+        <script src="~/js/pages/article.js"></script>
+
+
+
+    }

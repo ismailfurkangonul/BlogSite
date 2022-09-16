@@ -1,0 +1,15 @@
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\bin\Debug\net5.0\AriBilgi.Blog.Entities.deps.json
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\bin\Debug\net5.0\AriBilgi.Blog.Entities.dll
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\bin\Debug\net5.0\AriBilgi.Blog.Entities.pdb
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\bin\Debug\net5.0\AriBilgi.Blog.Shared.dll
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\bin\Debug\net5.0\AriBilgi.Blog.Shared.pdb
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\AriBilgi.Blog.Entities.csproj.AssemblyReference.cache
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\AriBilgi.Blog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\AriBilgi.Blog.Entities.AssemblyInfoInputs.cache
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\AriBilgi.Blog.Entities.AssemblyInfo.cs
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\AriBilgi.Blog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\AriBilgi.Blog.Entities.csproj.CopyComplete
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\AriBilgi.Blog.Entities.dll
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\refint\AriBilgi.Blog.Entities.dll
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\AriBilgi.Blog.Entities.pdb
+C:\Users\ARIBILGI\Desktop\ilker c#\ArıBilgi.Blog\AriBilgi.Blog.Entities\obj\Debug\net5.0\ref\AriBilgi.Blog.Entities.dll

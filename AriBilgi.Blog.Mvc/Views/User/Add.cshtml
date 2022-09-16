@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";  
+}
+<div class="row mt-3" ng-app="userapp" ng-controller="usercontroller">
+    <div class= "col-8">
+    <h3>Yeni kullanıcı ekle</h3>
+    <div class="form-group">
+        
+        <label>Lütfen adinizi giriniz</label>
+        <input class="form-control" ng-model="User.Name" />
+    </div>
+    <div class="form-group">
+         <label>Lütfen soyadinizi giriniz</label>
+        <input class="form-control" ng-model="User.Surname" />
+    </div>
+    <div class="form-group">
+         <label>mail adresinizi giriniz</label>
+        <input class="form-control" ng-model="User.Mail" />
+    </div>
+
+    <div class="form-group">
+        <label>bir rol seçiniz</label>
+        <select class="form-control" ng-model="User.UserRoleId">
+            <option value="0">seçiniz</option>
+            <option ng-repeat="role in UserRoleList" ng-value="{{role.Id}}">{{role.title}}</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+         <label>şifrenizi giriniz:</label>
+        <input type="password" class="form-control" ng-model="User.Password" />
+    </div>
+    <div class="form-group">
+         <button ng-click="AddUser()" class="btn btn-primary">Kaydet</button>
+
+
+    </div>
+</div>
+<div class="col-4">
+    <p ng-show="User.Name.length<1">* Ad kismi bos gecilemez</p>
+    <p ng-show="User.Surname.length<1">* SoyAd kismi bos gecilemez</p>
+    <p ng-show="User.Mail.length<1">* Email kismi bos gecilemez</p>
+    <p ng-show="User.Password.length<6 ||User.Password.length>12">* sifre minimum 6  maksimum 12 karakter olmalı</p>
+
+
+
+
+
+</div>
+
+</div>
+ @section scripts{
+
+        <script src="~/js/pages/user.js"></script>
+
+
+
+    }
